@@ -1,0 +1,53 @@
+.html {
+  background-color: hsl(30, 54%, 90%);
+}
+
+.First-Section {
+  background-color: hsl(330, 100%, 98%);
+}
+
+.body {
+  background-color: hsl(0, 0%, 100%);
+  font-size: 16px;
+  font-family: Serif;
+  font-weight: 400;
+}
+
+h2 {
+  color: hsl(332, 51%, 32%);
+}
+
+h3 {
+  color: hsl(14, 45%, 36%);
+}
+
+h4 {
+  color: hsl(14, 45%, 36%);
+}
+
+h5 {
+  color: hsl(14, 45%, 36%);
+}
+
+style {
+  color: hsl(332, 51%, 32%);
+}
+
+ol {
+  counter-reset: item;
+}
+ol li {
+  display: block;
+}
+ol li:before {
+  content: counter(item) ". ";
+  counter-increment: item;
+  font-weight: bold;
+  color: hsl(332, 51%, 32%);
+}
+
+@media (max-width: 375px) {
+  .body {
+    width: 100%;
+  }
+}
