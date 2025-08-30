@@ -19,14 +19,17 @@ h2 {
 
 h3 {
   color: hsl(14, 45%, 36%);
+  font-size: 20px;
 }
 
 h4 {
   color: hsl(14, 45%, 36%);
+  font-size: 20px;
 }
 
 h5 {
   color: hsl(14, 45%, 36%);
+  font-size: 20px;
 }
 
 style {
@@ -51,3 +54,4 @@ ol li:before {
     width: 100%;
   }
 }
+
