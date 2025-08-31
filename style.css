@@ -9,8 +9,19 @@
 .body {
   background-color: hsl(0, 0%, 100%);
   font-size: 16px;
-  font-family: Serif;
+  font-family: "Young Serif", Serif;
   font-weight: 400;
+}
+
+img {
+  max-width: 100%;
+  min-width: 100%;
+  height: auto;
+}
+
+h1 {
+  color: hsl(24, 5%, 18%);
+  font-size: 40px;
 }
 
 h2 {
@@ -19,6 +30,7 @@ h2 {
 
 h3 {
   color: hsl(14, 45%, 36%);
+  font-family: "Outfit" Outfit;
   font-size: 20px;
 }
 
@@ -46,10 +58,17 @@ ol li:before {
   content: counter(item) ". ";
   counter-increment: item;
   font-weight: bold;
-  color: hsl(332, 51%, 32%);
+  color: hsl(14, 45%, 36%);
+  margin-right: 20px;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 1440px) {
+  .body {
+    width: 100%;
+  }
+}
+
+@media (min-width: 375px) {
   .body {
     width: 100%;
   }
