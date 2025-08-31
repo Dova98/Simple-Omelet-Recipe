@@ -1,0 +1,75 @@
+.html {
+  background-color: hsl(30, 54%, 90%);
+}
+
+.First-Section {
+  background-color: hsl(330, 100%, 98%);
+}
+
+.body {
+  background-color: hsl(0, 0%, 100%);
+  font-size: 16px;
+  font-family: "Young Serif", Serif;
+  font-weight: 400;
+}
+
+img {
+  max-width: 100%;
+  min-width: 100%;
+  height: auto;
+}
+
+h1 {
+  color: hsl(24, 5%, 18%);
+  font-size: 40px;
+}
+
+h2 {
+  color: hsl(332, 51%, 32%);
+}
+
+h3 {
+  color: hsl(14, 45%, 36%);
+  font-family: "Outfit" Outfit;
+  font-size: 20px;
+}
+
+h4 {
+  color: hsl(14, 45%, 36%);
+  font-size: 20px;
+}
+
+h5 {
+  color: hsl(14, 45%, 36%);
+  font-size: 20px;
+}
+
+style {
+  color: hsl(332, 51%, 32%);
+}
+
+ol {
+  counter-reset: item;
+}
+ol li {
+  display: block;
+}
+ol li:before {
+  content: counter(item) ". ";
+  counter-increment: item;
+  font-weight: bold;
+  color: hsl(14, 45%, 36%);
+  margin-right: 20px;
+}
+
+@media (max-width: 1440px) {
+  .body {
+    width: 100%;
+  }
+}
+
+@media (min-width: 375px) {
+  .body {
+    width: 100%;
+  }
+}
