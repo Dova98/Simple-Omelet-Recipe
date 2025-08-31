@@ -1,3 +1,3 @@
-<img src="[image-omelette](https://github.com/user-attachments/assets/a0fe5f6f-c0dd-44b5-85b4-c53db0f981b3)"></img>
+<img src="![image-omelette](https://github.com/user-attachments/assets/a0fe5f6f-c0dd-44b5-85b4-c53db0f981b3)"></img>
 # Simple-Omelet-Recipe-
 A sample project of an omelet recipe I'm making
